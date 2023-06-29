@@ -1,4 +1,4 @@
-import { sidePanelData } from "@/config/constants";
+import { sidePanelData } from "@/data/constants";
 import Image from "next/image";
 
 import { Dispatch, SetStateAction } from "react";

@@ -3,7 +3,8 @@ import SidebarList from "./SidebarList";
 import {
   sidebarPortfolioDataWebDev,
   sidebarPortfolioDataDiscordBots,
-} from "@/config/constants";
+  sidebarPortfolioDataWebScrapping,
+} from "@/data/constants";
 import { SidebarComponentsProps } from "./Sidebar";
 import SidebarHeader from "./SidebarHeader";
 import { NavigationType } from "./SidebarList";
@@ -18,6 +19,9 @@ export default function SideBarPortfolio({
     useState<boolean>(true);
 
   const [isOpenPortfolioDiscordBots, setIsOpenPortfolioDiscordBots] =
+    useState<boolean>(true);
+
+  const [isOpenPortfolioDiscordWebScrapping, setIsOpenPortfolioWebScrapping] =
     useState<boolean>(true);
 
   return (
@@ -54,6 +58,22 @@ export default function SideBarPortfolio({
             {isOpenPortfolioDiscordBots && (
               <SidebarList
                 dataArray={sidebarPortfolioDataDiscordBots}
+                isActive={isActive}
+                setIsActive={setIsActive}
+                linkType={NavigationType.Route}
+                position="-left-[52px]"
+              />
+            )}
+          </div>
+          <div>
+            <SidebarHeader
+              title="Web scrapping"
+              isOpen={isOpenPortfolioDiscordWebScrapping}
+              setIsOpen={setIsOpenPortfolioWebScrapping}
+            />
+            {isOpenPortfolioDiscordWebScrapping && (
+              <SidebarList
+                dataArray={sidebarPortfolioDataWebScrapping}
                 isActive={isActive}
                 setIsActive={setIsActive}
                 linkType={NavigationType.Route}

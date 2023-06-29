@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { sideBarHomeData } from "@/config/constants";
+import { sideBarHomeData } from "@/data/constants";
 import SidebarList from "./SidebarList";
 import SidebarHeader from "./SidebarHeader";
 import { SidebarComponentsProps } from "./Sidebar";

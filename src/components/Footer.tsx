@@ -30,6 +30,7 @@ export default function Footer() {
       <div className="hidden gap-2 ss:flex ">
         {footerRightImages.map((img) => (
           <Image
+            key={img}
             src={`/footer/${img}.svg`}
             alt="sync"
             width={img === "typescript" ? 60 : img === "UTF" ? 45 : 25}

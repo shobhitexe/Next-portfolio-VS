@@ -6,10 +6,6 @@ const TopTagsData = [
     link: "",
   },
   {
-    title: "Contact.tsx",
-    link: "",
-  },
-  {
     title: "About.tsx",
     link: "",
   },

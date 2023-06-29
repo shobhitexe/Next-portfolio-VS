@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { sidebarContactData } from "@/config/constants";
+import { sidebarContactData } from "@/data/constants";
 import SidebarList from "./SidebarList";
 import SidebarHeader from "./SidebarHeader";
 import { SidebarComponentsProps } from "./Sidebar";

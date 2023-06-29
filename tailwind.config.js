@@ -29,6 +29,8 @@ module.exports = {
         selectedSideBar: "#37373d",
         topTag: "#3A3D41",
         footerBg: "#007acc",
+        textBlue: "#a8d7ef",
+        commentColor: "#648957",
       },
     },
   },
