@@ -33,17 +33,17 @@ export const sideBarHomeData: sidePanelProps[] = [
   {
     title: "Main.tsx",
     image: sideBarHomeImage,
-    link: "Main",
+    link: "/Main",
   },
-  {
-    title: "Contact.tsx",
-    image: sideBarHomeImage,
-    link: "Contact",
-  },
+  // {
+  //   title: "Contact.tsx",
+  //   image: sideBarHomeImage,
+  //   link: "Contact",
+  // },
   {
     title: "About.tsx",
     image: sideBarHomeImage,
-    link: "About",
+    link: "/About",
   },
 ];
 
@@ -79,17 +79,12 @@ export const sidebarPortfolioDataWebDev: sidePanelProps[] = [
   {
     title: "BlockEstate",
     image: "/sidebar/portfolio/solidity.svg",
-    link: "",
-  },
-  {
-    title: "3D Portfolio",
-    image: "/sidebar/portfolio/javascript.svg",
-    link: "",
+    link: "/portfolio/blockestate",
   },
   {
     title: "Master memecoin",
     image: "/sidebar/portfolio/react.svg",
-    link: "",
+    link: "/portfolio/master",
   },
 ];
 
@@ -97,16 +92,24 @@ export const sidebarPortfolioDataDiscordBots: sidePanelProps[] = [
   {
     title: "One word story",
     image: "/sidebar/portfolio/javascript.svg",
-    link: "",
+    link: "/portfolio/onewordstorybot",
   },
   {
     title: "Confession bot",
     image: "/sidebar/portfolio/javascript.svg",
-    link: "",
+    link: "/portfolio/confessionbot",
   },
   {
     title: "Link Preview",
     image: "/sidebar/portfolio/typescript.svg",
-    link: "",
+    link: "/portfolio/linkpreviewbot",
+  },
+];
+
+export const sidebarPortfolioDataWebScrapping: sidePanelProps[] = [
+  {
+    title: "GPT-Spider",
+    image: "/sidebar/portfolio/typescript.svg",
+    link: `/portfolio/gptspider`,
   },
 ];
